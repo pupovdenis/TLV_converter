@@ -6,7 +6,6 @@ import ru.pupov.converter.Converter;
 import ru.pupov.converter.TLVConverter;
 
 import java.io.IOException;
-import java.net.URISyntaxException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;

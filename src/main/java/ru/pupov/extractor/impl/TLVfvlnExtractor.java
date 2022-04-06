@@ -5,8 +5,6 @@ import org.slf4j.LoggerFactory;
 import ru.pupov.extractor.Extractor;
 import ru.pupov.utils.Utils;
 
-import java.util.ArrayList;
-
 public class TLVfvlnExtractor implements Extractor {
 
     Logger logger = LoggerFactory.getLogger(TLVfvlnExtractor.class);

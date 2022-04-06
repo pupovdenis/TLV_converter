@@ -1,12 +1,9 @@
 package ru.pupov.model;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
-import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
@@ -16,7 +13,6 @@ public class TLVOrder {
 
     public static final String DATE_FORMAT = "yyyy-MM-dd'T'HH:mm:ss";
 
-//    @JsonProperty("datetime")
     @JsonIgnore
     private long datetime;
     @JsonProperty("orderNumber")
@@ -37,7 +33,6 @@ public class TLVOrder {
     }
 
 
-//    @JsonIgnore
     @JsonProperty("datetime")
     public String getDatetimeString() {
         SimpleDateFormat formater = new SimpleDateFormat(DATE_FORMAT);

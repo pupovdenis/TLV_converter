@@ -1,7 +1,6 @@
 package ru.pupov.enums;
 
 import ru.pupov.extractor.Extractor;
-import ru.pupov.extractor.impl.TLVfvlnExtractor;
 import ru.pupov.extractor.impl.TLVstringCP866Extractor;
 import ru.pupov.extractor.impl.TLVuint32Extractor;
 import ru.pupov.extractor.impl.TLVvlnExtractor;
